@@ -27,9 +27,7 @@ public class CharacterSelection : MonoBehaviour
         //Toggle off the current model
         characterList[index].SetActive(false);
 
-        index--;
-        if (index < 0)
-            index = characterList.Length - 1;
+        index = 0;
 
         //Toggle on the new model
         characterList[index].SetActive(true);
@@ -40,9 +38,7 @@ public class CharacterSelection : MonoBehaviour
         //Toggle off the current model
         characterList[index].SetActive(false);
 
-        index++;
-        if (index == characterList.Length)
-            index = 0;
+        index = 1;
 
         //Toggle on the new model
         characterList[index].SetActive(true);
