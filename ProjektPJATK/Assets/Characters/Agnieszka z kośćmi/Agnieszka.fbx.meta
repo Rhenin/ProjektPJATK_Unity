@@ -1,28 +1,90 @@
 fileFormatVersion: 2
-guid: 5013c7dffb3517f43ada05d4d3ab0062
+guid: 06c07d3e7ee5ca24d9a77b932feb69c6
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: agnieszkaMesh
-    100004: low-polyMesh
-    100006: ponytail01Mesh
+    100004: CMU compliant skeleton
+    100006: Head
+    100008: Hips
+    100010: LeftArm
+    100012: LeftFingerBase
+    100014: LeftFoot
+    100016: LeftForeArm
+    100018: LeftHand
+    100020: LeftHandFinger1
+    100022: LeftLeg
+    100024: LeftShoulder
+    100026: LeftToeBase
+    100028: LeftUpLeg
+    100030: LHipJoint
+    100032: low-polyMesh
+    100034: LowerBack
+    100036: LThumb
+    100038: Neck
+    100040: Neck1
+    100042: ponytail01Mesh
+    100044: RHipJoint
+    100046: RightArm
+    100048: RightFingerBase
+    100050: RightFoot
+    100052: RightForeArm
+    100054: RightHand
+    100056: RightHandFinger1
+    100058: RightLeg
+    100060: RightShoulder
+    100062: RightToeBase
+    100064: RightUpLeg
+    100066: RThumb
+    100068: Spine
+    100070: Spine1
     400000: //RootNode
     400002: agnieszkaMesh
-    400004: low-polyMesh
-    400006: ponytail01Mesh
+    400004: CMU compliant skeleton
+    400006: Head
+    400008: Hips
+    400010: LeftArm
+    400012: LeftFingerBase
+    400014: LeftFoot
+    400016: LeftForeArm
+    400018: LeftHand
+    400020: LeftHandFinger1
+    400022: LeftLeg
+    400024: LeftShoulder
+    400026: LeftToeBase
+    400028: LeftUpLeg
+    400030: LHipJoint
+    400032: low-polyMesh
+    400034: LowerBack
+    400036: LThumb
+    400038: Neck
+    400040: Neck1
+    400042: ponytail01Mesh
+    400044: RHipJoint
+    400046: RightArm
+    400048: RightFingerBase
+    400050: RightFoot
+    400052: RightForeArm
+    400054: RightHand
+    400056: RightHandFinger1
+    400058: RightLeg
+    400060: RightShoulder
+    400062: RightToeBase
+    400064: RightUpLeg
+    400066: RThumb
+    400068: Spine
+    400070: Spine1
     2100000: agnieszka
     2100002: ponytail01
     2100004: low-poly
-    2300000: agnieszkaMesh
-    2300002: low-polyMesh
-    2300004: ponytail01Mesh
-    3300000: agnieszkaMesh
-    3300002: low-polyMesh
-    3300004: ponytail01Mesh
     4300000: agnieszkaMesh
     4300002: ponytail01Mesh
     4300004: low-polyMesh
+    9500000: //RootNode
+    13700000: agnieszkaMesh
+    13700002: low-polyMesh
+    13700004: ponytail01Mesh
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -98,7 +160,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
