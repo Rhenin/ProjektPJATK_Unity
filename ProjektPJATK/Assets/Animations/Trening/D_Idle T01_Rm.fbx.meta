@@ -1,30 +1,82 @@
 fileFormatVersion: 2
-guid: c520bab1fd1850f4f88bb52068f169a4
+guid: aa56e27fbb1c6a5428c23261cbaf1551
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: low-polyMesh
-    100002: male_muscle_13290Mesh
-    100004: //RootNode
-    100006: short01Mesh
-    400000: low-polyMesh
-    400002: male_muscle_13290Mesh
-    400004: //RootNode
-    400006: short01Mesh
-    2100000: male_muscle_13290
-    2100002: short01
-    2100004: low-poly
-    2300000: low-polyMesh
-    2300002: male_muscle_13290Mesh
-    2300004: short01Mesh
-    3300000: low-polyMesh
-    3300002: male_muscle_13290Mesh
-    3300004: short01Mesh
-    4300000: male_muscle_13290Mesh
-    4300002: short01Mesh
-    4300004: low-polyMesh
+    100000: //RootNode
+    100002: Head
+    100004: HeadEnd
+    100006: Hips
+    100008: L_FingersEnd
+    100010: LeftArm
+    100012: LeftFoot
+    100014: LeftForeArm
+    100016: LeftHand
+    100018: LeftHandEnd
+    100020: LeftHandThumb1
+    100022: LeftHandThumb2
+    100024: LeftLeg
+    100026: LeftShoulder
+    100028: LeftToeBase
+    100030: LeftToeBaseEnd
+    100032: LeftUpLeg
+    100034: Neck
+    100036: R_FingersEnd
+    100038: RightArm
+    100040: RightFoot
+    100042: RightForeArm
+    100044: RightHand
+    100046: RightHandEnd
+    100048: RightHandThumb1
+    100050: RightHandThumb2
+    100052: RightLeg
+    100054: RightShoulder
+    100056: RightToeBase
+    100058: RightToeBaseEnd
+    100060: RightUpLeg
+    100062: Root
+    100064: Spine
+    100066: Spine1
+    100068: Spine2
+    100070: Spine3
+    400000: //RootNode
+    400002: Head
+    400004: HeadEnd
+    400006: Hips
+    400008: L_FingersEnd
+    400010: LeftArm
+    400012: LeftFoot
+    400014: LeftForeArm
+    400016: LeftHand
+    400018: LeftHandEnd
+    400020: LeftHandThumb1
+    400022: LeftHandThumb2
+    400024: LeftLeg
+    400026: LeftShoulder
+    400028: LeftToeBase
+    400030: LeftToeBaseEnd
+    400032: LeftUpLeg
+    400034: Neck
+    400036: R_FingersEnd
+    400038: RightArm
+    400040: RightFoot
+    400042: RightForeArm
+    400044: RightHand
+    400046: RightHandEnd
+    400048: RightHandThumb1
+    400050: RightHandThumb2
+    400052: RightLeg
+    400054: RightShoulder
+    400056: RightToeBase
+    400058: RightToeBaseEnd
+    400060: RightUpLeg
+    400062: Root
+    400064: Spine
+    400066: Spine1
+    400068: Spine2
+    400070: Spine3
+    7400000: Take 001
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -37,8 +89,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
-      human bone 'Hips' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -46,7 +97,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -87,27 +138,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 2
     human: []
-    skeleton:
-    - name: Marek(Clone)
-      parentName: 
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: low-polyMesh
-      parentName: Marek(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: male_muscle_13290Mesh
-      parentName: Marek(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: short01Mesh
-      parentName: Marek(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -118,10 +149,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 3
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
