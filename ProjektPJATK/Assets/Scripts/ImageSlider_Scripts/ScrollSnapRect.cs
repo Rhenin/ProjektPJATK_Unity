@@ -28,6 +28,9 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
     [Tooltip("Container with page images (optional)")]
     public Transform pageSelectionIcons;
 
+    //Container for animations
+    private GameObject[] animations;
+
     // fast swipes should be fast and short. If too long, then it is not fast swipe
     private int _fastSwipeThresholdMaxLimit;
 
@@ -90,7 +93,9 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
 
         if (prevButton)
             prevButton.GetComponent<Button>().onClick.AddListener(() => { PreviousScreen(); });
-	}
+
+        
+    }
 
     //------------------------------------------------------------------------
     void Update() {
@@ -154,7 +159,7 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
             RectTransform child = _container.GetChild(i).GetComponent<RectTransform>();
             Vector2 childPosition;
             if (_horizontal) {
-                childPosition = new Vector2(i * width - containerWidth / 2 + offsetX, 0f);
+                childPosition = new Vector2(i * 200 - containerWidth / 2 + offsetX, 0f);
             } else {
                 childPosition = new Vector2(0f, -(i * height - containerHeight / 2 + offsetY));
             }
@@ -194,6 +199,7 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
                 // cache all Image components into list
                 for (int i = 0; i < pageSelectionIcons.childCount; i++) {
                     Image image = pageSelectionIcons.GetChild(i).GetComponent<Image>();
+                   
                     if (image == null) {
                         Debug.LogWarning("Page selection icon at position " + i + " is missing Image component");
                     }
