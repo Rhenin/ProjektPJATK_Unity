@@ -1,27 +1,27 @@
 fileFormatVersion: 2
-guid: 5013c7dffb3517f43ada05d4d3ab0062
+guid: 6b35602f69820a64091e0104931003e0
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: agnieszkaMesh
-    100004: low-polyMesh
-    100006: ponytail01Mesh
-    400000: //RootNode
-    400002: agnieszkaMesh
-    400004: low-polyMesh
-    400006: ponytail01Mesh
-    2100000: agnieszka
-    2100002: ponytail01
+    100000: low-polyMesh
+    100002: male_muscle_13290Mesh
+    100004: //RootNode
+    100006: short01Mesh
+    400000: low-polyMesh
+    400002: male_muscle_13290Mesh
+    400004: //RootNode
+    400006: short01Mesh
+    2100000: male_muscle_13290
+    2100002: short01
     2100004: low-poly
-    2300000: agnieszkaMesh
-    2300002: low-polyMesh
-    2300004: ponytail01Mesh
-    3300000: agnieszkaMesh
-    3300002: low-polyMesh
-    3300004: ponytail01Mesh
-    4300000: agnieszkaMesh
-    4300002: ponytail01Mesh
+    2300000: low-polyMesh
+    2300002: male_muscle_13290Mesh
+    2300004: short01Mesh
+    3300000: low-polyMesh
+    3300002: male_muscle_13290Mesh
+    3300004: short01Mesh
+    4300000: male_muscle_13290Mesh
+    4300002: short01Mesh
     4300004: low-polyMesh
   externalObjects: {}
   materials:
