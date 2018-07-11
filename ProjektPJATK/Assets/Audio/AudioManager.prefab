@@ -53,6 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Ambient
+    mixer: {fileID: 0}
     clip: {fileID: 8300000, guid: 891fc98de79267c4fba378f820dea62c, type: 3}
     volume: 1
     pitch: 0.99
