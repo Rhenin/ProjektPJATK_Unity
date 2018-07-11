@@ -9,6 +9,7 @@ using System.Collections.Generic;
 [RequireComponent(typeof(ScrollRect))]
 public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler {
 
+
     [Tooltip("Set starting page index - starting from 0")]
     public int startingPage = 0;
     [Tooltip("Threshold time for fast swipe in seconds")]
@@ -29,8 +30,10 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
     public Transform pageSelectionIcons;
 
     //Container for animations
-    private GameObject[] animations;
-
+    private bool[] anim = new bool[15];
+   
+    Animation animator = new Animation();
+    int current = 0;
     // fast swipes should be fast and short. If too long, then it is not fast swipe
     private int _fastSwipeThresholdMaxLimit;
 
@@ -89,12 +92,16 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
 
         // prev and next buttons
         if (nextButton)
-            nextButton.GetComponent<Button>().onClick.AddListener(() => { NextScreen(); });
+            nextButton.GetComponent<Button>().onClick.AddListener(() => {NextScreen();});
 
         if (prevButton)
-            prevButton.GetComponent<Button>().onClick.AddListener(() => { PreviousScreen(); });
+            prevButton.GetComponent<Button>().onClick.AddListener(() => {PreviousScreen();});
 
-        
+        //False initzialisation
+        for (int i = 0; i < anim.Length; i++)
+        {
+            anim[i] = false;
+        }
     }
 
     //------------------------------------------------------------------------
@@ -118,9 +125,44 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
                 SetPageSelection(GetNearestPage());
             }
         }
-    }
-
+        
+       
+         if (Input.GetKeyDown(KeyCode.W))
+            {
+            animator.enabled = false;
+            anim[current] = false;
+                if (current == 0)
+                {
+                    current = 14;
+                }
+                else
+                {
+                    current--;
+                }
+            animator.enabled = true;
+            anim[current] = true;         
+            }
+     }
+    
     //------------------------------------------------------------------------
+    private void ButtonS()
+    {
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            animator.enabled = false;
+            anim[current] = false;
+            if (current == 14)
+            {
+                current = 0;
+            }
+            else
+            {
+                current++;
+            }
+            animator.enabled = true;
+            anim[current] = true;
+        }
+    }
     private void SetPagePositions() {
         int width = 0;
         int height = 0;
