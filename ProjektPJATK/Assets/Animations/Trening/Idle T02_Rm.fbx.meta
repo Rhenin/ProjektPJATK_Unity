@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 23d8a7d22192015478f29ed3b32682c0
+guid: 7032d6536908fa74c945c757eb7a05d1
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -75,7 +75,7 @@ ModelImporter:
     400066: Spine1
     400068: Spine2
     400070: Spine3
-    7400000: Take 001
+    7400000: Idle T02_Rm
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -110,18 +110,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: Idle T02_Rm
       takeName: Take 001
-      firstFrame: 85
-      lastFrame: 89
+      firstFrame: 119
+      lastFrame: 332
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -347,20 +347,20 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Idle T01_Rm(Clone)
+    - name: Idle T02_Rm(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Root
-      parentName: Idle T01_Rm(Clone)
-      position: {x: 0.020501599, y: 0, z: 1.0678195}
+      parentName: Idle T02_Rm(Clone)
+      position: {x: -0.026782492, y: 0, z: 1.093158}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Hips
       parentName: Root
-      position: {x: -0.020501599, y: 0.9333272, z: -1.067446}
-      rotation: {x: -0.701876, y: 0, z: -0, w: 0.71229917}
+      position: {x: 0.02678249, y: 0.92883974, z: -1.0934801}
+      rotation: {x: -0.7115867, y: 0, z: -0, w: 0.7025983}
       scale: {x: 1, y: 1, z: 1}
     - name: LeftUpLeg
       parentName: Hips
@@ -380,7 +380,7 @@ ModelImporter:
     - name: LeftToeBase
       parentName: LeftFoot
       position: {x: -0.16986677, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0.17364825, w: 0.9848078}
+      rotation: {x: 0, y: 0, z: 0.17360201, w: 0.9848159}
       scale: {x: 1, y: 1, z: 1}
     - name: LeftToeBaseEnd
       parentName: LeftToeBase
@@ -430,7 +430,7 @@ ModelImporter:
     - name: Spine3
       parentName: Spine2
       position: {x: -0, y: 0, z: 0.08536946}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: 0, y: 0, z: 0.000029617508, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: LeftShoulder
       parentName: Spine3

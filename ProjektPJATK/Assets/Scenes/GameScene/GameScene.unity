@@ -537,7 +537,7 @@ Animator:
   m_GameObject: {fileID: 41470223}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 6b35602f69820a64091e0104931003e0, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8739e12a5f3d0df46a7adf4017e5d1e8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -930,13 +930,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 163672221}
-  m_LocalRotation: {x: -0.13716887, y: -0.020535825, z: -0.0019464105, w: 0.9903329}
-  m_LocalPosition: {x: 149.5, y: 1, z: 19.01}
+  m_LocalRotation: {x: -0.074111626, y: -0.02073804, z: -0.00062390906, w: 0.99703413}
+  m_LocalPosition: {x: 149.5, y: 2.2, z: 21.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -15.769001, y: -2.391, z: 0.106000006}
+  m_LocalEulerAnglesHint: {x: -8.5, y: -2.391, z: 0.106000006}
 --- !u!114 &163672227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3082,7 +3082,7 @@ Animator:
   m_GameObject: {fileID: 629840347}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 06c07d3e7ee5ca24d9a77b932feb69c6, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8739e12a5f3d0df46a7adf4017e5d1e8, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -5925,20 +5925,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Balans T02
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: set_speed
-        m_Mode: 4
+      - m_Target: {fileID: 1373709067}
+        m_MethodName: PlayAnim1
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6677,6 +6666,7 @@ GameObject:
   - component: {fileID: 1373709061}
   - component: {fileID: 1373709066}
   - component: {fileID: 1373709065}
+  - component: {fileID: 1373709067}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -6789,6 +6779,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 4bc985378847f4d43a30549cc2183643, type: 2}
   resolutionDropdown: {fileID: 803397190}
+--- !u!114 &1373709067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373709060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea88a596f0fb9eb42b3ff132a5192a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 9500000, guid: 06c07d3e7ee5ca24d9a77b932feb69c6, type: 3}
+  agnieszka: {fileID: 629840347}
 --- !u!1 &1397231787
 GameObject:
   m_ObjectHideFlags: 0
