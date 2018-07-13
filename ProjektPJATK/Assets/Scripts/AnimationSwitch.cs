@@ -24,7 +24,6 @@ public class AnimationSwitch : CharacterSelection {
     
  
     List<string> boolName = new List<string>();
-    List<string> trigName = new List<string>();
 
     // Use this for initialization
     void Start()
@@ -39,17 +38,10 @@ public class AnimationSwitch : CharacterSelection {
 
         _animationCount = anim.animationClips.Length;
         AnimatorControllerParameter[] parameters = animator[0].parameters;
-        
-       
-        
+   
         for (int i = 0; i < _animationCount-1; i++)
         {
             boolName.Add(parameters[i].name);
-
-        }
-        for (int i = (_animationCount - 1); i < (_animationCount - 1) * 2; i++)
-        {
-            trigName.Add(parameters[i].name);
 
         }
         animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
@@ -80,8 +72,14 @@ public class AnimationSwitch : CharacterSelection {
     {
         if(animator[_currentAnimIndex].GetBool(boolName[_currentAnim]) == true)
         {
-            animator[_currentAnimIndex].SetTrigger(trigName[_currentAnim]); 
+            animator[_currentAnimIndex].SetTrigger("AnimTrig");
+            
         }
+    }
+    public void StopAnim()
+    {
+        animator[_currentAnimIndex].SetTrigger("IdleOn");
+        animator[_currentAnimIndex].ResetTrigger("AnimTrig");
     }
 
     public void NextAnim()
@@ -90,6 +88,7 @@ public class AnimationSwitch : CharacterSelection {
         {
             animator[_currentAnimIndex].SetBool(boolName[_currentAnim], false);
             animator[_currentAnimIndex].SetTrigger("IdleOn");
+            animator[_currentAnimIndex].ResetTrigger("AnimTrig");
             if (_currentAnim == 0)
             {
                 prev.SetActive(true);
@@ -111,6 +110,7 @@ public class AnimationSwitch : CharacterSelection {
         {
             animator[_currentAnimIndex].SetBool(boolName[_currentAnim], false);
             animator[_currentAnimIndex].SetTrigger("IdleOn");
+            animator[_currentAnimIndex].ResetTrigger("AnimTrig");
             if (_currentAnim == _animationCount - 2)
             {
                 next.SetActive(true);
