@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Text;
 using UnityEngine.UI;
 using UnityEngine.Animations;
 
@@ -11,18 +12,21 @@ public class AnimationSwitch : CharacterSelection {
     public RuntimeAnimatorController anim;
     public GameObject agnieszka;
     public GameObject marek;
+
+    GameObject counter;
     GameObject prev;
     GameObject next;
 
     private string _currentNameBool;
     private string _currentNameTrig;
     private string _previousNameBool;
+   
 
     private int _animationCount;
     private int _currentAnimIndex;
     private int _currentAnim;
-    
- 
+
+    string _counterText;
     List<string> boolName = new List<string>();
 
     // Use this for initialization
@@ -30,12 +34,16 @@ public class AnimationSwitch : CharacterSelection {
     {
         _currentAnim = 0;
         _currentAnimIndex = 0;
+        counter = GameObject.Find("Count");
         prev = GameObject.Find("Prev");
         next = GameObject.Find("Next");
         prev.SetActive(false);
+
         animator.Add(agnieszka.GetComponent<Animator>());
         animator.Add(marek.GetComponent<Animator>());
 
+
+        
         _animationCount = anim.animationClips.Length;
         AnimatorControllerParameter[] parameters = animator[0].parameters;
    
@@ -45,7 +53,10 @@ public class AnimationSwitch : CharacterSelection {
 
         }
         animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
+        _counterText = "kupa0" + "kupa1";
 
+        counter.GetComponent<Text>().text  = (_currentAnim+1).ToString() + " / " + (_animationCount -1).ToString();
+        
     }
 	// Update is called once per frame
 	void Update ()
@@ -61,8 +72,6 @@ public class AnimationSwitch : CharacterSelection {
             {
                 _currentAnimIndex = 1;
                 animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
-
-
             }
         }
     }
@@ -70,16 +79,40 @@ public class AnimationSwitch : CharacterSelection {
 
     public void PlayAnim()
     {
-        if(animator[_currentAnimIndex].GetBool(boolName[_currentAnim]) == true)
+
+        if(animator[_currentAnimIndex].enabled == false)
         {
-            animator[_currentAnimIndex].SetTrigger("AnimTrig");
-            
+            animator[_currentAnimIndex].enabled = true;
         }
+        else
+        {
+
+
+            if (animator[_currentAnimIndex].GetBool(boolName[_currentAnim]) == true)
+            {
+                animator[_currentAnimIndex].SetTrigger("AnimTrig");
+
+            }
+        }
+    }
+
+    public void PauseAnim()
+    {
+        animator[_currentAnimIndex].enabled = false;
     }
     public void StopAnim()
     {
-        animator[_currentAnimIndex].SetTrigger("IdleOn");
-        animator[_currentAnimIndex].ResetTrigger("AnimTrig");
+        if (animator[_currentAnimIndex].enabled == false)
+        {
+            animator[_currentAnimIndex].enabled = true;
+            animator[_currentAnimIndex].SetTrigger("IdleOn");
+            animator[_currentAnimIndex].ResetTrigger("AnimTrig");
+        }
+        else
+        {
+            animator[_currentAnimIndex].SetTrigger("IdleOn");
+            animator[_currentAnimIndex].ResetTrigger("AnimTrig");
+        }
     }
 
     public void NextAnim()
@@ -94,7 +127,7 @@ public class AnimationSwitch : CharacterSelection {
                 prev.SetActive(true);
             }
                     _currentAnim++;
-           
+            counter.GetComponent<Text>().text = (_currentAnim+1).ToString() + " / " + (_animationCount - 1).ToString();
             if (_currentAnim == _animationCount - 2)
             {
                 next.SetActive(false);
@@ -117,6 +150,7 @@ public class AnimationSwitch : CharacterSelection {
 
             }
             _currentAnim--;
+            counter.GetComponent<Text>().text = (_currentAnim+1).ToString() + " / " + (_animationCount - 1).ToString();
             if (_currentAnim == 0)
             {
                 prev.SetActive(false);
