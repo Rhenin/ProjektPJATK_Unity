@@ -26,7 +26,7 @@ public class AnimationSwitch : CharacterSelection {
     private int _currentAnimIndex;
     private int _currentAnim;
 
-    string _counterText;
+   
     List<string> boolName = new List<string>();
 
     // Use this for initialization
@@ -53,7 +53,6 @@ public class AnimationSwitch : CharacterSelection {
 
         }
         animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
-        _counterText = "kupa0" + "kupa1";
 
         counter.GetComponent<Text>().text  = (_currentAnim+1).ToString() + " / " + (_animationCount -1).ToString();
         

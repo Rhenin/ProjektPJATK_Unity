@@ -3,79 +3,79 @@ guid: c6cfd58d3dd5fd54183ff6ce6fd8bc4f
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Sylwek:Solving
-    100002: Sylwek:Solving:Head
-    100004: Sylwek:Solving:HeadEnd
-    100006: Sylwek:Solving:Hips
-    100008: Sylwek:Solving:L_FingersEnd
-    100010: Sylwek:Solving:LeftArm
-    100012: Sylwek:Solving:LeftFoot
-    100014: Sylwek:Solving:LeftForeArm
-    100016: Sylwek:Solving:LeftHand
-    100018: Sylwek:Solving:LeftHandEnd
-    100020: Sylwek:Solving:LeftHandThumb1
-    100022: Sylwek:Solving:LeftHandThumb2
-    100024: Sylwek:Solving:LeftLeg
-    100026: Sylwek:Solving:LeftShoulder
-    100028: Sylwek:Solving:LeftToeBase
-    100030: Sylwek:Solving:LeftToeBaseEnd
-    100032: Sylwek:Solving:LeftUpLeg
-    100034: Sylwek:Solving:Neck
-    100036: Sylwek:Solving:R_FingersEnd
-    100038: Sylwek:Solving:RightArm
-    100040: Sylwek:Solving:RightFoot
-    100042: Sylwek:Solving:RightForeArm
-    100044: Sylwek:Solving:RightHand
-    100046: Sylwek:Solving:RightHandEnd
-    100048: Sylwek:Solving:RightHandThumb1
-    100050: Sylwek:Solving:RightHandThumb2
-    100052: Sylwek:Solving:RightLeg
-    100054: Sylwek:Solving:RightShoulder
-    100056: Sylwek:Solving:RightToeBase
-    100058: Sylwek:Solving:RightToeBaseEnd
-    100060: Sylwek:Solving:RightUpLeg
-    100062: Sylwek:Solving:Spine
-    100064: Sylwek:Solving:Spine1
-    100066: Sylwek:Solving:Spine2
-    100068: Sylwek:Solving:Spine3
+    100000: Head
+    100002: HeadEnd
+    100004: Hips
+    100006: L_FingersEnd
+    100008: LeftArm
+    100010: LeftFoot
+    100012: LeftForeArm
+    100014: LeftHand
+    100016: LeftHandEnd
+    100018: LeftHandThumb1
+    100020: LeftHandThumb2
+    100022: LeftLeg
+    100024: LeftShoulder
+    100026: LeftToeBase
+    100028: LeftToeBaseEnd
+    100030: LeftUpLeg
+    100032: Neck
+    100034: R_FingersEnd
+    100036: RightArm
+    100038: RightFoot
+    100040: RightForeArm
+    100042: RightHand
+    100044: RightHandEnd
+    100046: RightHandThumb1
+    100048: RightHandThumb2
+    100050: RightLeg
+    100052: RightShoulder
+    100054: RightToeBase
+    100056: RightToeBaseEnd
+    100058: RightUpLeg
+    100060: Root
+    100062: Spine
+    100064: Spine1
+    100066: Spine2
+    100068: Spine3
     100070: //RootNode
-    400000: Sylwek:Solving
-    400002: Sylwek:Solving:Head
-    400004: Sylwek:Solving:HeadEnd
-    400006: Sylwek:Solving:Hips
-    400008: Sylwek:Solving:L_FingersEnd
-    400010: Sylwek:Solving:LeftArm
-    400012: Sylwek:Solving:LeftFoot
-    400014: Sylwek:Solving:LeftForeArm
-    400016: Sylwek:Solving:LeftHand
-    400018: Sylwek:Solving:LeftHandEnd
-    400020: Sylwek:Solving:LeftHandThumb1
-    400022: Sylwek:Solving:LeftHandThumb2
-    400024: Sylwek:Solving:LeftLeg
-    400026: Sylwek:Solving:LeftShoulder
-    400028: Sylwek:Solving:LeftToeBase
-    400030: Sylwek:Solving:LeftToeBaseEnd
-    400032: Sylwek:Solving:LeftUpLeg
-    400034: Sylwek:Solving:Neck
-    400036: Sylwek:Solving:R_FingersEnd
-    400038: Sylwek:Solving:RightArm
-    400040: Sylwek:Solving:RightFoot
-    400042: Sylwek:Solving:RightForeArm
-    400044: Sylwek:Solving:RightHand
-    400046: Sylwek:Solving:RightHandEnd
-    400048: Sylwek:Solving:RightHandThumb1
-    400050: Sylwek:Solving:RightHandThumb2
-    400052: Sylwek:Solving:RightLeg
-    400054: Sylwek:Solving:RightShoulder
-    400056: Sylwek:Solving:RightToeBase
-    400058: Sylwek:Solving:RightToeBaseEnd
-    400060: Sylwek:Solving:RightUpLeg
-    400062: Sylwek:Solving:Spine
-    400064: Sylwek:Solving:Spine1
-    400066: Sylwek:Solving:Spine2
-    400068: Sylwek:Solving:Spine3
+    400000: Head
+    400002: HeadEnd
+    400004: Hips
+    400006: L_FingersEnd
+    400008: LeftArm
+    400010: LeftFoot
+    400012: LeftForeArm
+    400014: LeftHand
+    400016: LeftHandEnd
+    400018: LeftHandThumb1
+    400020: LeftHandThumb2
+    400022: LeftLeg
+    400024: LeftShoulder
+    400026: LeftToeBase
+    400028: LeftToeBaseEnd
+    400030: LeftUpLeg
+    400032: Neck
+    400034: R_FingersEnd
+    400036: RightArm
+    400038: RightFoot
+    400040: RightForeArm
+    400042: RightHand
+    400044: RightHandEnd
+    400046: RightHandThumb1
+    400048: RightHandThumb2
+    400050: RightLeg
+    400052: RightShoulder
+    400054: RightToeBase
+    400056: RightToeBaseEnd
+    400058: RightUpLeg
+    400060: Root
+    400062: Spine
+    400064: Spine1
+    400066: Spine2
+    400068: Spine3
     400070: //RootNode
-    7400000: tulow T04
+    7400000: Take 001
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -89,14 +89,14 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: Root
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'tulow2_T01_x2d' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'Sylwek:Solving:Spine3' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n"
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Spine3' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -110,10 +110,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: tulow T04
-      takeName: tulow2_T01_x2d
-      firstFrame: 1
-      lastFrame: 4186
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 883
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -170,7 +170,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 2
     human:
-    - boneName: Sylwek:Solving:Hips
+    - boneName: Hips
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -178,7 +178,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:LeftUpLeg
+    - boneName: LeftUpLeg
       humanName: LeftUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -186,7 +186,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:RightUpLeg
+    - boneName: RightUpLeg
       humanName: RightUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -194,7 +194,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:LeftLeg
+    - boneName: LeftLeg
       humanName: LeftLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -202,7 +202,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:RightLeg
+    - boneName: RightLeg
       humanName: RightLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -210,7 +210,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:LeftFoot
+    - boneName: LeftFoot
       humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -218,7 +218,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:RightFoot
+    - boneName: RightFoot
       humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -226,7 +226,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:Spine
+    - boneName: Spine
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -234,7 +234,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:Spine1
+    - boneName: Spine1
       humanName: Chest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -242,7 +242,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:Neck
+    - boneName: Neck
       humanName: Neck
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -250,7 +250,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:Head
+    - boneName: Head
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -258,7 +258,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:LeftShoulder
+    - boneName: LeftShoulder
       humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -266,7 +266,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:RightShoulder
+    - boneName: RightShoulder
       humanName: RightShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -274,7 +274,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:LeftArm
+    - boneName: LeftArm
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -282,7 +282,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:RightArm
+    - boneName: RightArm
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -290,7 +290,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:LeftForeArm
+    - boneName: LeftForeArm
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -298,7 +298,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:RightForeArm
+    - boneName: RightForeArm
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -306,7 +306,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:LeftHand
+    - boneName: LeftHand
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -314,7 +314,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:RightHand
+    - boneName: RightHand
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -322,7 +322,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:LeftToeBase
+    - boneName: LeftToeBase
       humanName: LeftToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -330,7 +330,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:RightToeBase
+    - boneName: RightToeBase
       humanName: RightToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -338,7 +338,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwek:Solving:Spine2
+    - boneName: Spine2
       humanName: UpperChest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -347,183 +347,183 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: tulow2 T01(Clone)
+    - name: tulow T04(Clone)
       parentName: 
-      position: {x: -0, y: 0, z: 0}
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root
+      parentName: tulow T04(Clone)
+      position: {x: 0.043658223, y: 0, z: 1.1549938}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving
-      parentName: tulow2 T01(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+    - name: Hips
+      parentName: Root
+      position: {x: -0.04365822, y: 0.9299986, z: -1.1549476}
+      rotation: {x: -0.70645356, y: 0, z: -0, w: 0.70775944}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:Hips
-      parentName: Sylwek:Solving
-      position: {x: 0, y: 0.92962265, z: -0.00001001358}
-      rotation: {x: -0.7072488, y: 0, z: -0, w: 0.70696473}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftUpLeg
-      parentName: Sylwek:Solving:Hips
+    - name: LeftUpLeg
+      parentName: Hips
       position: {x: -0.08550846, y: 0, z: -0.02498}
       rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftLeg
-      parentName: Sylwek:Solving:LeftUpLeg
+    - name: LeftLeg
+      parentName: LeftUpLeg
       position: {x: -0.41127408, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftFoot
-      parentName: Sylwek:Solving:LeftLeg
+    - name: LeftFoot
+      parentName: LeftLeg
       position: {x: -0.4077729, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0.5735762, w: 0.8191522}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftToeBase
-      parentName: Sylwek:Solving:LeftFoot
+    - name: LeftToeBase
+      parentName: LeftFoot
       position: {x: -0.17341723, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0.17364825, w: 0.9848078}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftToeBaseEnd
-      parentName: Sylwek:Solving:LeftToeBase
+    - name: LeftToeBaseEnd
+      parentName: LeftToeBase
       position: {x: -0.06917538, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightUpLeg
-      parentName: Sylwek:Solving:Hips
+    - name: RightUpLeg
+      parentName: Hips
       position: {x: 0.08550846, y: 0, z: -0.02498}
       rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightLeg
-      parentName: Sylwek:Solving:RightUpLeg
+    - name: RightLeg
+      parentName: RightUpLeg
       position: {x: -0.41127408, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightFoot
-      parentName: Sylwek:Solving:RightLeg
+    - name: RightFoot
+      parentName: RightLeg
       position: {x: -0.4077729, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0.5735762, w: 0.8191522}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightToeBase
-      parentName: Sylwek:Solving:RightFoot
+    - name: RightToeBase
+      parentName: RightFoot
       position: {x: -0.17341723, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0.17364825, w: 0.9848078}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightToeBaseEnd
-      parentName: Sylwek:Solving:RightToeBase
+    - name: RightToeBaseEnd
+      parentName: RightToeBase
       position: {x: -0.06917538, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:Spine
-      parentName: Sylwek:Solving:Hips
+    - name: Spine
+      parentName: Hips
       position: {x: -0, y: 0.043529414, z: 0.065294124}
       rotation: {x: -0.087155774, y: 0, z: -0, w: 0.9961947}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:Spine1
-      parentName: Sylwek:Solving:Spine
+    - name: Spine1
+      parentName: Spine
       position: {x: -0, y: 0, z: 0.08705883}
       rotation: {x: 0.043619156, y: -0, z: -0, w: 0.99904823}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:Spine2
-      parentName: Sylwek:Solving:Spine1
+    - name: Spine2
+      parentName: Spine1
       position: {x: -0, y: 0, z: 0.08705883}
       rotation: {x: 0.043619156, y: -0, z: -0, w: 0.99904823}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:Spine3
-      parentName: Sylwek:Solving:Spine2
+    - name: Spine3
+      parentName: Spine2
       position: {x: -0, y: 0, z: 0.08705883}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftShoulder
-      parentName: Sylwek:Solving:Spine3
+    - name: LeftShoulder
+      parentName: Spine3
       position: {x: -0.028823074, y: -0.048038457, z: 0.15564461}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftArm
-      parentName: Sylwek:Solving:LeftShoulder
+    - name: LeftArm
+      parentName: LeftShoulder
       position: {x: -0.1431546, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftForeArm
-      parentName: Sylwek:Solving:LeftArm
+    - name: LeftForeArm
+      parentName: LeftArm
       position: {x: -0.27701363, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftHand
-      parentName: Sylwek:Solving:LeftForeArm
+    - name: LeftHand
+      parentName: LeftForeArm
       position: {x: -0.22699581, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftHandEnd
-      parentName: Sylwek:Solving:LeftHand
+    - name: LeftHandEnd
+      parentName: LeftHand
       position: {x: -0.06662925, y: 0, z: 0}
-      rotation: {x: 0.7071067, y: -0, z: -0, w: 0.7071069}
+      rotation: {x: 0.70710665, y: -0, z: -0, w: 0.7071069}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:L_FingersEnd
-      parentName: Sylwek:Solving:LeftHandEnd
+    - name: L_FingersEnd
+      parentName: LeftHandEnd
       position: {x: -0.06662925, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftHandThumb1
-      parentName: Sylwek:Solving:LeftHand
+    - name: LeftHandThumb1
+      parentName: LeftHand
       position: {x: -0.026651701, y: -0.0444195, z: -0.017767802}
-      rotation: {x: 0.9876721, y: 0.13002947, z: 0.011375968, w: 0.08641026}
+      rotation: {x: 0.9876721, y: 0.13002947, z: 0.011375972, w: 0.08641029}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:LeftHandThumb2
-      parentName: Sylwek:Solving:LeftHandThumb1
+    - name: LeftHandThumb2
+      parentName: LeftHandThumb1
       position: {x: -0.06662925, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:Neck
-      parentName: Sylwek:Solving:Spine3
+    - name: Neck
+      parentName: Spine3
       position: {x: -0, y: -0.032647062, z: 0.22852942}
       rotation: {x: 0.087155774, y: -0, z: -0, w: 0.9961947}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:Head
-      parentName: Sylwek:Solving:Neck
+    - name: Head
+      parentName: Neck
       position: {x: -0, y: 0, z: 0.11970589}
       rotation: {x: -0.087155774, y: 0, z: -0, w: 0.9961947}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:HeadEnd
-      parentName: Sylwek:Solving:Head
+    - name: HeadEnd
+      parentName: Head
       position: {x: -0, y: 0, z: 0.14092648}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightShoulder
-      parentName: Sylwek:Solving:Spine3
+    - name: RightShoulder
+      parentName: Spine3
       position: {x: 0.028823074, y: -0.048038457, z: 0.15564461}
       rotation: {x: 6.123235e-17, y: 1, z: -6.123235e-17, w: 0.00000013315805}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightArm
-      parentName: Sylwek:Solving:RightShoulder
+    - name: RightArm
+      parentName: RightShoulder
       position: {x: -0.1431546, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightForeArm
-      parentName: Sylwek:Solving:RightArm
+    - name: RightForeArm
+      parentName: RightArm
       position: {x: -0.27701363, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightHand
-      parentName: Sylwek:Solving:RightForeArm
+    - name: RightHand
+      parentName: RightForeArm
       position: {x: -0.22699581, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightHandEnd
-      parentName: Sylwek:Solving:RightHand
+    - name: RightHandEnd
+      parentName: RightHand
       position: {x: -0.06662925, y: 0, z: 0}
-      rotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071069}
+      rotation: {x: -0.70710665, y: 0, z: -0, w: 0.7071069}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:R_FingersEnd
-      parentName: Sylwek:Solving:RightHandEnd
+    - name: R_FingersEnd
+      parentName: RightHandEnd
       position: {x: -0.06662925, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightHandThumb1
-      parentName: Sylwek:Solving:RightHand
+    - name: RightHandThumb1
+      parentName: RightHand
       position: {x: -0.026651701, y: -0.0444195, z: 0.017767802}
-      rotation: {x: 0.9876721, y: 0.13002947, z: 0.011375968, w: 0.08641026}
+      rotation: {x: 0.9876721, y: 0.13002947, z: 0.011375972, w: 0.08641029}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwek:Solving:RightHandThumb2
-      parentName: Sylwek:Solving:RightHandThumb1
+    - name: RightHandThumb2
+      parentName: RightHandThumb1
       position: {x: -0.06662925, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -537,7 +537,7 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3

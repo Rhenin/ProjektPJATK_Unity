@@ -3,79 +3,79 @@ guid: 4575c6cb8b5443744846432e6ae9bacc
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Sylwester:Solving
-    100004: Sylwester:Solving:Head
-    100006: Sylwester:Solving:HeadEnd
-    100008: Sylwester:Solving:Hips
-    100010: Sylwester:Solving:L_FingersEnd
-    100012: Sylwester:Solving:LeftArm
-    100014: Sylwester:Solving:LeftFoot
-    100016: Sylwester:Solving:LeftForeArm
-    100018: Sylwester:Solving:LeftHand
-    100020: Sylwester:Solving:LeftHandEnd
-    100022: Sylwester:Solving:LeftHandThumb1
-    100024: Sylwester:Solving:LeftHandThumb2
-    100026: Sylwester:Solving:LeftLeg
-    100028: Sylwester:Solving:LeftShoulder
-    100030: Sylwester:Solving:LeftToeBase
-    100032: Sylwester:Solving:LeftToeBaseEnd
-    100034: Sylwester:Solving:LeftUpLeg
-    100036: Sylwester:Solving:Neck
-    100038: Sylwester:Solving:R_FingersEnd
-    100040: Sylwester:Solving:RightArm
-    100042: Sylwester:Solving:RightFoot
-    100044: Sylwester:Solving:RightForeArm
-    100046: Sylwester:Solving:RightHand
-    100048: Sylwester:Solving:RightHandEnd
-    100050: Sylwester:Solving:RightHandThumb1
-    100052: Sylwester:Solving:RightHandThumb2
-    100054: Sylwester:Solving:RightLeg
-    100056: Sylwester:Solving:RightShoulder
-    100058: Sylwester:Solving:RightToeBase
-    100060: Sylwester:Solving:RightToeBaseEnd
-    100062: Sylwester:Solving:RightUpLeg
-    100064: Sylwester:Solving:Spine
-    100066: Sylwester:Solving:Spine1
-    100068: Sylwester:Solving:Spine2
-    100070: Sylwester:Solving:Spine3
-    400000: //RootNode
-    400002: Sylwester:Solving
-    400004: Sylwester:Solving:Head
-    400006: Sylwester:Solving:HeadEnd
-    400008: Sylwester:Solving:Hips
-    400010: Sylwester:Solving:L_FingersEnd
-    400012: Sylwester:Solving:LeftArm
-    400014: Sylwester:Solving:LeftFoot
-    400016: Sylwester:Solving:LeftForeArm
-    400018: Sylwester:Solving:LeftHand
-    400020: Sylwester:Solving:LeftHandEnd
-    400022: Sylwester:Solving:LeftHandThumb1
-    400024: Sylwester:Solving:LeftHandThumb2
-    400026: Sylwester:Solving:LeftLeg
-    400028: Sylwester:Solving:LeftShoulder
-    400030: Sylwester:Solving:LeftToeBase
-    400032: Sylwester:Solving:LeftToeBaseEnd
-    400034: Sylwester:Solving:LeftUpLeg
-    400036: Sylwester:Solving:Neck
-    400038: Sylwester:Solving:R_FingersEnd
-    400040: Sylwester:Solving:RightArm
-    400042: Sylwester:Solving:RightFoot
-    400044: Sylwester:Solving:RightForeArm
-    400046: Sylwester:Solving:RightHand
-    400048: Sylwester:Solving:RightHandEnd
-    400050: Sylwester:Solving:RightHandThumb1
-    400052: Sylwester:Solving:RightHandThumb2
-    400054: Sylwester:Solving:RightLeg
-    400056: Sylwester:Solving:RightShoulder
-    400058: Sylwester:Solving:RightToeBase
-    400060: Sylwester:Solving:RightToeBaseEnd
-    400062: Sylwester:Solving:RightUpLeg
-    400064: Sylwester:Solving:Spine
-    400066: Sylwester:Solving:Spine1
-    400068: Sylwester:Solving:Spine2
-    400070: Sylwester:Solving:Spine3
-    7400000: Rowerek_T01_x2d
+    100000: Head
+    100002: HeadEnd
+    100004: Hips
+    100006: L_FingersEnd
+    100008: LeftArm
+    100010: LeftFoot
+    100012: LeftForeArm
+    100014: LeftHand
+    100016: LeftHandEnd
+    100018: LeftHandThumb1
+    100020: LeftHandThumb2
+    100022: LeftLeg
+    100024: LeftShoulder
+    100026: LeftToeBase
+    100028: LeftToeBaseEnd
+    100030: LeftUpLeg
+    100032: Neck
+    100034: R_FingersEnd
+    100036: RightArm
+    100038: RightFoot
+    100040: RightForeArm
+    100042: RightHand
+    100044: RightHandEnd
+    100046: RightHandThumb1
+    100048: RightHandThumb2
+    100050: RightLeg
+    100052: RightShoulder
+    100054: RightToeBase
+    100056: RightToeBaseEnd
+    100058: RightUpLeg
+    100060: Root
+    100062: //RootNode
+    100064: Spine
+    100066: Spine1
+    100068: Spine2
+    100070: Spine3
+    400000: Head
+    400002: HeadEnd
+    400004: Hips
+    400006: L_FingersEnd
+    400008: LeftArm
+    400010: LeftFoot
+    400012: LeftForeArm
+    400014: LeftHand
+    400016: LeftHandEnd
+    400018: LeftHandThumb1
+    400020: LeftHandThumb2
+    400022: LeftLeg
+    400024: LeftShoulder
+    400026: LeftToeBase
+    400028: LeftToeBaseEnd
+    400030: LeftUpLeg
+    400032: Neck
+    400034: R_FingersEnd
+    400036: RightArm
+    400038: RightFoot
+    400040: RightForeArm
+    400042: RightHand
+    400044: RightHandEnd
+    400046: RightHandThumb1
+    400048: RightHandThumb2
+    400050: RightLeg
+    400052: RightShoulder
+    400054: RightToeBase
+    400056: RightToeBaseEnd
+    400058: RightUpLeg
+    400060: Root
+    400062: //RootNode
+    400064: Spine
+    400066: Spine1
+    400068: Spine2
+    400070: Spine3
+    7400000: Take 001
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -89,14 +89,14 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: Root
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Rowerek_T01_x2d' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'Sylwester:Solving:Spine3' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n"
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Spine3' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -108,7 +108,35 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 529
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -142,7 +170,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 2
     human:
-    - boneName: Sylwester:Solving:Hips
+    - boneName: Hips
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -150,7 +178,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:LeftUpLeg
+    - boneName: LeftUpLeg
       humanName: LeftUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -158,7 +186,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:RightUpLeg
+    - boneName: RightUpLeg
       humanName: RightUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -166,7 +194,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:LeftLeg
+    - boneName: LeftLeg
       humanName: LeftLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -174,7 +202,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:RightLeg
+    - boneName: RightLeg
       humanName: RightLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -182,7 +210,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:LeftFoot
+    - boneName: LeftFoot
       humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -190,7 +218,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:RightFoot
+    - boneName: RightFoot
       humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -198,7 +226,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:Spine
+    - boneName: Spine
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -206,7 +234,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:Spine1
+    - boneName: Spine1
       humanName: Chest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -214,7 +242,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:Neck
+    - boneName: Neck
       humanName: Neck
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -222,7 +250,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:Head
+    - boneName: Head
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -230,7 +258,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:LeftShoulder
+    - boneName: LeftShoulder
       humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -238,7 +266,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:RightShoulder
+    - boneName: RightShoulder
       humanName: RightShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -246,7 +274,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:LeftArm
+    - boneName: LeftArm
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -254,7 +282,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:RightArm
+    - boneName: RightArm
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -262,7 +290,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:LeftForeArm
+    - boneName: LeftForeArm
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -270,7 +298,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:RightForeArm
+    - boneName: RightForeArm
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -278,7 +306,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:LeftHand
+    - boneName: LeftHand
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -286,7 +314,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:RightHand
+    - boneName: RightHand
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -294,7 +322,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:LeftToeBase
+    - boneName: LeftToeBase
       humanName: LeftToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -302,7 +330,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:RightToeBase
+    - boneName: RightToeBase
       humanName: RightToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -310,7 +338,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Sylwester:Solving:Spine2
+    - boneName: Spine2
       humanName: UpperChest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -321,181 +349,181 @@ ModelImporter:
     skeleton:
     - name: Rowerek T01(Clone)
       parentName: 
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving
+    - name: Root
       parentName: Rowerek T01(Clone)
-      position: {x: -0, y: 0, z: 0}
+      position: {x: -0.08691445, y: 0, z: 1.0198045}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:Hips
-      parentName: Sylwester:Solving
-      position: {x: 0, y: 0.92948556, z: -0.00011706352}
+    - name: Hips
+      parentName: Root
+      position: {x: 0.08691445, y: 0.92948556, z: -1.0199215}
       rotation: {x: -0.7087388, y: 0, z: -0, w: 0.705471}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftUpLeg
-      parentName: Sylwester:Solving:Hips
+    - name: LeftUpLeg
+      parentName: Hips
       position: {x: -0.08673414, y: 0, z: -0.025338063}
       rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftLeg
-      parentName: Sylwester:Solving:LeftUpLeg
+    - name: LeftLeg
+      parentName: LeftUpLeg
       position: {x: -0.40284735, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftFoot
-      parentName: Sylwester:Solving:LeftLeg
+    - name: LeftFoot
+      parentName: LeftLeg
       position: {x: -0.417911, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0.5735762, w: 0.8191522}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftToeBase
-      parentName: Sylwester:Solving:LeftFoot
+    - name: LeftToeBase
+      parentName: LeftFoot
       position: {x: -0.16899033, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0.17364825, w: 0.9848078}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftToeBaseEnd
-      parentName: Sylwester:Solving:LeftToeBase
+    - name: LeftToeBaseEnd
+      parentName: LeftToeBase
       position: {x: -0.070166945, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightUpLeg
-      parentName: Sylwester:Solving:Hips
+    - name: RightUpLeg
+      parentName: Hips
       position: {x: 0.08673414, y: 0, z: -0.025338063}
       rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightLeg
-      parentName: Sylwester:Solving:RightUpLeg
+    - name: RightLeg
+      parentName: RightUpLeg
       position: {x: -0.40284735, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightFoot
-      parentName: Sylwester:Solving:RightLeg
+    - name: RightFoot
+      parentName: RightLeg
       position: {x: -0.417911, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0.5735762, w: 0.8191522}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightToeBase
-      parentName: Sylwester:Solving:RightFoot
+    - name: RightToeBase
+      parentName: RightFoot
       position: {x: -0.16899033, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0.17364825, w: 0.9848078}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightToeBaseEnd
-      parentName: Sylwester:Solving:RightToeBase
+    - name: RightToeBaseEnd
+      parentName: RightToeBase
       position: {x: -0.070166945, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:Spine
-      parentName: Sylwester:Solving:Hips
+    - name: Spine
+      parentName: Hips
       position: {x: -0, y: 0.04261415, z: 0.06392123}
       rotation: {x: -0.087155774, y: 0, z: -0, w: 0.9961947}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:Spine1
-      parentName: Sylwester:Solving:Spine
+    - name: Spine1
+      parentName: Spine
       position: {x: -0, y: 0, z: 0.0852283}
       rotation: {x: 0.043619156, y: -0, z: -0, w: 0.99904823}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:Spine2
-      parentName: Sylwester:Solving:Spine1
+    - name: Spine2
+      parentName: Spine1
       position: {x: -0, y: 0, z: 0.0852283}
       rotation: {x: 0.043619156, y: -0, z: -0, w: 0.99904823}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:Spine3
-      parentName: Sylwester:Solving:Spine2
+    - name: Spine3
+      parentName: Spine2
       position: {x: -0, y: 0, z: 0.0852283}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftShoulder
-      parentName: Sylwester:Solving:Spine3
+    - name: LeftShoulder
+      parentName: Spine3
       position: {x: -0.029236225, y: -0.048727043, z: 0.15787563}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftArm
-      parentName: Sylwester:Solving:LeftShoulder
+    - name: LeftArm
+      parentName: LeftShoulder
       position: {x: -0.14520659, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftForeArm
-      parentName: Sylwester:Solving:LeftArm
+    - name: LeftForeArm
+      parentName: LeftArm
       position: {x: -0.27985528, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftHand
-      parentName: Sylwester:Solving:LeftForeArm
+    - name: LeftHand
+      parentName: LeftForeArm
       position: {x: -0.22751102, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftHandEnd
-      parentName: Sylwester:Solving:LeftHand
+    - name: LeftHandEnd
+      parentName: LeftHand
       position: {x: -0.067447305, y: 0, z: 0}
-      rotation: {x: 0.7071067, y: -0, z: -0, w: 0.7071069}
+      rotation: {x: 0.70710665, y: -0, z: -0, w: 0.7071069}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:L_FingersEnd
-      parentName: Sylwester:Solving:LeftHandEnd
+    - name: L_FingersEnd
+      parentName: LeftHandEnd
       position: {x: -0.067447305, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftHandThumb1
-      parentName: Sylwester:Solving:LeftHand
+    - name: LeftHandThumb1
+      parentName: LeftHand
       position: {x: -0.026978921, y: -0.04496487, z: -0.017985947}
-      rotation: {x: 0.9876721, y: 0.13002947, z: 0.011375968, w: 0.08641026}
+      rotation: {x: 0.9876721, y: 0.13002947, z: 0.011375972, w: 0.08641029}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:LeftHandThumb2
-      parentName: Sylwester:Solving:LeftHandThumb1
+    - name: LeftHandThumb2
+      parentName: LeftHandThumb1
       position: {x: -0.067447305, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:Neck
-      parentName: Sylwester:Solving:Spine3
+    - name: Neck
+      parentName: Spine3
       position: {x: -0, y: -0.031960614, z: 0.22372429}
       rotation: {x: 0.087155774, y: -0, z: -0, w: 0.9961947}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:Head
-      parentName: Sylwester:Solving:Neck
+    - name: Head
+      parentName: Neck
       position: {x: -0, y: 0, z: 0.11718891}
       rotation: {x: -0.087155774, y: 0, z: -0, w: 0.9961947}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:HeadEnd
-      parentName: Sylwester:Solving:Head
+    - name: HeadEnd
+      parentName: Head
       position: {x: -0, y: 0, z: 0.13796331}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightShoulder
-      parentName: Sylwester:Solving:Spine3
+    - name: RightShoulder
+      parentName: Spine3
       position: {x: 0.029236225, y: -0.048727043, z: 0.15787563}
       rotation: {x: 6.123235e-17, y: 1, z: -6.123235e-17, w: 0.00000013315805}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightArm
-      parentName: Sylwester:Solving:RightShoulder
+    - name: RightArm
+      parentName: RightShoulder
       position: {x: -0.14520659, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightForeArm
-      parentName: Sylwester:Solving:RightArm
+    - name: RightForeArm
+      parentName: RightArm
       position: {x: -0.27985528, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightHand
-      parentName: Sylwester:Solving:RightForeArm
+    - name: RightHand
+      parentName: RightForeArm
       position: {x: -0.22751102, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightHandEnd
-      parentName: Sylwester:Solving:RightHand
+    - name: RightHandEnd
+      parentName: RightHand
       position: {x: -0.067447305, y: 0, z: 0}
-      rotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071069}
+      rotation: {x: -0.70710665, y: 0, z: -0, w: 0.7071069}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:R_FingersEnd
-      parentName: Sylwester:Solving:RightHandEnd
+    - name: R_FingersEnd
+      parentName: RightHandEnd
       position: {x: -0.067447305, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightHandThumb1
-      parentName: Sylwester:Solving:RightHand
+    - name: RightHandThumb1
+      parentName: RightHand
       position: {x: -0.026978921, y: -0.04496487, z: 0.017985947}
-      rotation: {x: 0.9876721, y: 0.13002947, z: 0.011375968, w: 0.08641026}
+      rotation: {x: 0.9876721, y: 0.13002947, z: 0.011375972, w: 0.08641029}
       scale: {x: 1, y: 1, z: 1}
-    - name: Sylwester:Solving:RightHandThumb2
-      parentName: Sylwester:Solving:RightHandThumb1
+    - name: RightHandThumb2
+      parentName: RightHandThumb1
       position: {x: -0.067447305, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -509,7 +537,7 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
