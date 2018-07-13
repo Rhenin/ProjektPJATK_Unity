@@ -85,7 +85,12 @@ ModelImporter:
     13700000: agnieszkaMesh
     13700002: low-polyMesh
     13700004: ponytail01Mesh
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ponytail01
+    second: {fileID: 2100000, guid: 9e994d6398dd87c4db1bd7be3cc49c43, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

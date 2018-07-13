@@ -1,18 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Animations;
 
-public class AnimationSwitch : MonoBehaviour {
+public class AnimationSwitch : CharacterSelection {
 
-   
-    public Animator animator;
+
+    List<Animator> animator = new List<Animator>();
+    public RuntimeAnimatorController anim;
     public GameObject agnieszka;
+    public GameObject marek;
+    GameObject prev;
+    GameObject next;
+
     private string _currentNameBool;
     private string _currentNameTrig;
     private string _previousNameBool;
+
+    private int _animationCount;
+    private int _currentAnimIndex;
     private int _currentAnim;
-    private bool next;
+    
+ 
     List<string> boolName = new List<string>();
     List<string> trigName = new List<string>();
 
@@ -20,60 +30,98 @@ public class AnimationSwitch : MonoBehaviour {
     void Start()
     {
         _currentAnim = 0;
-        next = false;
+        _currentAnimIndex = 0;
+        prev = GameObject.Find("Prev");
+        next = GameObject.Find("Next");
+        prev.SetActive(false);
+        animator.Add(agnieszka.GetComponent<Animator>());
+        animator.Add(marek.GetComponent<Animator>());
 
-        animator = agnieszka.GetComponent<Animator>();
-        AnimatorControllerParameter[] parameters = animator.parameters;
-
-
+        _animationCount = anim.animationClips.Length;
+        AnimatorControllerParameter[] parameters = animator[0].parameters;
         
-        for (int i = 0; i < 13; i++)
+       
+        
+        for (int i = 0; i < _animationCount-1; i++)
         {
             boolName.Add(parameters[i].name);
 
         }
-        for (int i = 13; i < 26; i++)
+        for (int i = (_animationCount - 1); i < (_animationCount - 1) * 2; i++)
         {
             trigName.Add(parameters[i].name);
 
         }
-        Debug.Log(trigName.Count);
-        
+        animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
+
     }
 	// Update is called once per frame
 	void Update ()
     {
+       if(change)
+        {
+            if (agnieszka.activeSelf == true)
+            {      
+                _currentAnimIndex = 0;
+                animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
+            }
+            if (marek.activeSelf == true)
+            {
+                _currentAnimIndex = 1;
+                animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
+
+
+            }
+        }
     }
+
 
     public void PlayAnim()
     {
-        if(animator.GetBool(boolName[_currentAnim]) == true)
+        if(animator[_currentAnimIndex].GetBool(boolName[_currentAnim]) == true)
         {
-            animator.SetTrigger(trigName[_currentAnim]); 
+            animator[_currentAnimIndex].SetTrigger(trigName[_currentAnim]); 
         }
     }
 
     public void NextAnim()
-    {
-        
-        if(_currentAnim < 12)
+    {    
+        if(_currentAnim < _animationCount - 2)
         {
-            animator.SetBool(boolName[_currentAnim], false);
-            animator.SetTrigger("IdleOn");
-            _currentAnim++;
-            animator.SetBool(boolName[_currentAnim], true);
+            animator[_currentAnimIndex].SetBool(boolName[_currentAnim], false);
+            animator[_currentAnimIndex].SetTrigger("IdleOn");
+            if (_currentAnim == 0)
+            {
+                prev.SetActive(true);
+            }
+                    _currentAnim++;
+           
+            if (_currentAnim == _animationCount - 2)
+            {
+                next.SetActive(false);
+             
+            }
+            animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
         }
         
     }
     public void PrevAnim()
-    {
-        
+    {      
         if (_currentAnim > 0)
         {
-            animator.SetBool(boolName[_currentAnim], false);
-            animator.SetTrigger("IdleOn");
+            animator[_currentAnimIndex].SetBool(boolName[_currentAnim], false);
+            animator[_currentAnimIndex].SetTrigger("IdleOn");
+            if (_currentAnim == _animationCount - 2)
+            {
+                next.SetActive(true);
+
+            }
             _currentAnim--;
-            animator.SetBool(boolName[_currentAnim], true);
+            if (_currentAnim == 0)
+            {
+                prev.SetActive(false);
+            }
+            animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
         }
         
     }

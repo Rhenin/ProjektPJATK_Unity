@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class CharacterSelection : MonoBehaviour
 {
-    private GameObject[] characterList;
-    private int index;
-
+    internal static GameObject[] characterList;
+    internal int index;
+    internal static bool change;
+ 
     private void Start()
     {
         characterList = new GameObject[transform.childCount];
@@ -19,16 +20,18 @@ public class CharacterSelection : MonoBehaviour
             go.SetActive(false);
         //we toggle off the first index
         if (characterList[0])
+        {
             characterList[0].SetActive(true);
+        }
+           
     }
 
     public void ToggleLeft()
     {
         //Toggle off the current model
         characterList[index].SetActive(false);
-
         index = 0;
-
+        change = true;
         //Toggle on the new model
         characterList[index].SetActive(true);
     }
@@ -37,9 +40,9 @@ public class CharacterSelection : MonoBehaviour
     {
         //Toggle off the current model
         characterList[index].SetActive(false);
-
+        
         index = 1;
-
+        change = true;
         //Toggle on the new model
         characterList[index].SetActive(true);
     }
