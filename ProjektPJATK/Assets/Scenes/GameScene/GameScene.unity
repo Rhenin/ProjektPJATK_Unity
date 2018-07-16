@@ -790,6 +790,7 @@ GameObject:
   - component: {fileID: 163672227}
   - component: {fileID: 163672228}
   - component: {fileID: 163672229}
+  - component: {fileID: 163672230}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -860,13 +861,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 163672221}
-  m_LocalRotation: {x: -0.074111626, y: -0.02073804, z: -0.00062390906, w: 0.99703413}
+  m_LocalRotation: {x: -0.07409242, y: -0.020806586, z: -0.0015461976, w: 0.9970331}
   m_LocalPosition: {x: 149.5, y: 2.2, z: 21.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -8.5, y: -2.391, z: 0.106000006}
+  m_LocalEulerAnglesHint: {x: -8.5, y: -2.391, z: 0}
 --- !u!114 &163672227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -938,6 +939,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &163672230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 163672221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f45f13af30a0548a3c1a4b886c9e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newRotate: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &166672815
 GameObject:
   m_ObjectHideFlags: 0
@@ -3143,14 +3156,14 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 126
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!64 &629840351
 MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 629840347}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: eb2d113f58b1dcf468ad933fd12e3131, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3533,105 +3546,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 845b915d7cc75234193c4dff840df908, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &666136762 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100000, guid: 560f1caa2c38a3244b43e6e52d7b52cb, type: 3}
-  m_PrefabInternal: {fileID: 1352841756}
---- !u!82 &666136763
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 666136762}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!4 &666136764 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 560f1caa2c38a3244b43e6e52d7b52cb, type: 3}
@@ -7398,6 +7312,11 @@ Prefab:
       propertyPath: m_SkinWidth
       value: 0.01
       objectReference: {fileID: 0}
+    - target: {fileID: 6400000, guid: 560f1caa2c38a3244b43e6e52d7b52cb, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 65575368d9f16334cb1e7f54df38de29,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 560f1caa2c38a3244b43e6e52d7b52cb, type: 3}
   m_IsPrefabParent: 0
