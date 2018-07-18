@@ -4,25 +4,32 @@ using UnityEngine;
 using System.Text;
 using UnityEngine.UI;
 using UnityEngine.Animations;
+using System.IO;
+using TMPro;
+
+
 
 public class AnimationSwitch : CharacterSelection {
 
     public RuntimeAnimatorController anim;
     
-    GameObject counter;
-    GameObject prev;
-    GameObject next;
+    public GameObject counter;
+    public GameObject prev;
+    public GameObject next;
 
+    public TMP_Text textValue;
     private string _currentNameBool;
     private string _currentNameTrig;
     private string _previousNameBool;
    
     private int _animationCount;
-    private int _currentAnimIndex;
-    private int _currentAnim;
+    internal int _currentAnimIndex;
+    internal int _currentAnim;
 
+    
     List<Animator> animator = new List<Animator>();
     List<string> boolName = new List<string>();
+    List<string> textData = new List<string>();
 
     // Use this for initialization
     void Start()
@@ -31,9 +38,7 @@ public class AnimationSwitch : CharacterSelection {
         _currentAnimIndex = 0;
         _animationCount = anim.animationClips.Length;
 
-        counter = GameObject.Find("Count");
-        prev = GameObject.Find("Prev");
-        next = GameObject.Find("Next");
+       
         prev.SetActive(false);
 
         foreach(GameObject ch in characterList)
@@ -52,6 +57,8 @@ public class AnimationSwitch : CharacterSelection {
         animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
 
         counter.GetComponent<Text>().text  = (_currentAnim+1).ToString() + " / " + (_animationCount -1).ToString();
+        readFromFile();
+        textValue.text = textData[_currentAnim];
         
     }
 	// Update is called once per frame
@@ -68,19 +75,6 @@ public class AnimationSwitch : CharacterSelection {
                 }
             }
 
-
-
-
-            /*if (agnieszka.activeSelf == true)
-            {      
-                _currentAnimIndex = 0;
-                animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
-            }
-            if (marek.activeSelf == true)
-            {
-                _currentAnimIndex = 1;
-                animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
-            }*/
         }
     }
 
@@ -94,8 +88,6 @@ public class AnimationSwitch : CharacterSelection {
         }
         else
         {
-
-
             if (animator[_currentAnimIndex].GetBool(boolName[_currentAnim]) == true)
             {
                 animator[_currentAnimIndex].SetTrigger("AnimTrig");
@@ -146,6 +138,7 @@ public class AnimationSwitch : CharacterSelection {
                 prev.SetActive(true);
             }
                     _currentAnim++;
+            textValue.text = textData[_currentAnim];
             counter.GetComponent<Text>().text = (_currentAnim+1).ToString() + " / " + (_animationCount - 1).ToString();
             if (_currentAnim == _animationCount - 2)
             {
@@ -179,6 +172,7 @@ public class AnimationSwitch : CharacterSelection {
 
             }
             _currentAnim--;
+            textValue.text = textData[_currentAnim];
             counter.GetComponent<Text>().text = (_currentAnim+1).ToString() + " / " + (_animationCount - 1).ToString();
             if (_currentAnim == 0)
             {
@@ -188,4 +182,38 @@ public class AnimationSwitch : CharacterSelection {
         }
         
     }
+
+    private List<string> readFromFile()
+    {
+        string dataFilePath = "Assets\\Interface\\HowToText.txt";
+        
+        try
+        {
+            
+            string line = null;
+        
+            using (StreamReader myFile = new StreamReader(dataFilePath))
+            {
+                while (line != "\n") 
+                {                
+                                      
+                    if (line != null)
+                    {                    
+                            textData.Add(line);                     
+                    }
+                    line = myFile.ReadLine() + "\n" + myFile.ReadLine();
+                }
+                
+            
+            }
+        }
+        catch (FileNotFoundException e)
+        {
+            Debug.Log(e.Message);
+        }
+         
+        return textData;
+    }
+
+    
 }

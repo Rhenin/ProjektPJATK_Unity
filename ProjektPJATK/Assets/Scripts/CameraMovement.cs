@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour {
 
-    public Quaternion newRotate;
+    private Quaternion newRotate;
     Camera cam;
     // Use this for initialization
     void Start () {
