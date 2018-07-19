@@ -6,7 +6,9 @@ public class CameraMovement : MonoBehaviour {
 
     private Quaternion newRotate;
     Camera cam;
-    // Use this for initialization
+    /// <summary>
+    /// /inicjalizacja  startowej kamery
+    /// </summary>
     void Start () {
         newRotate = Quaternion.Euler(-8.5f, -2.391f, 0f);
         cam = GetComponent<Camera>();
@@ -14,7 +16,7 @@ public class CameraMovement : MonoBehaviour {
         Camera.main.transform.localRotation = newRotate;
     }
 	
-	// Update is called once per frame
+	// ustawienie innego widoku kamery podpisane pod konkretny przycisk
 	void Update () {
         if (Input.GetButtonDown("1"))
         {

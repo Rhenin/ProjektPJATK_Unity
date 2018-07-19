@@ -7,7 +7,7 @@ using System.IO;
 public class HowTo : MonoBehaviour {
 
     public GameObject howToMenu;
-
+    //uaktywnienie menu howto
 
     public void howToActivate()
     {

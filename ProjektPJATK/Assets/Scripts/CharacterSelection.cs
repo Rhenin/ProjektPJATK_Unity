@@ -7,12 +7,15 @@ using UnityEngine.SceneManagement;
 
 public class CharacterSelection : MonoBehaviour
 {
+
+    //kod odpowiezdialny za zmiane postaci po portretach
     internal static GameObject[] characterList;
     internal int index;
     internal static bool change;
  
     private void Start()
     {
+        //inicjalizacja postaci dostepnych
         characterList = new GameObject[transform.childCount];
         //fill array with our modules
         for(int i = 0; i < transform.childCount; i++)

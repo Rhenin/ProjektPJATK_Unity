@@ -3,7 +3,7 @@ using UnityEngine;
 
 [System.Serializable]
 public class Sound{
-
+    //opis pojedynczego audio tracka niezbedny w audio managerze
     public string name;
 
     public AudioMixerGroup mixer;

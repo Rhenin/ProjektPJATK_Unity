@@ -11,59 +11,67 @@ using TMPro;
 
 public class AnimationSwitch : CharacterSelection {
 
+
+    //inicjalizacja instancji animator controllera
     public RuntimeAnimatorController anim;
-    
+    //inicjalizacja buttonow
     public GameObject counter;
     public GameObject prev;
     public GameObject next;
-
     public TMP_Text textValue;
+    
+    //zmienne sterujace
     private string _currentNameBool;
     private string _currentNameTrig;
     private string _previousNameBool;
-   
     private int _animationCount;
     internal int _currentAnimIndex;
     internal int _currentAnim;
 
-    
+    //inicjalizacja struktur przechowujacych
     List<Animator> animator = new List<Animator>();
     List<string> boolName = new List<string>();
     List<string> textData = new List<string>();
 
-    // Use this for initialization
+    // inicjalizacja instancji
     void Start()
     {
         _currentAnim = 0;
         _currentAnimIndex = 0;
+        //pobranie ilosci animacji
         _animationCount = anim.animationClips.Length;
 
-       
+       //wylaczenie pierwszego przycisku na start
         prev.SetActive(false);
 
+        //uzupelnienie listy animatorow z postaci
         foreach(GameObject ch in characterList)
         {
             animator.Add(ch.GetComponent<Animator>());
         }
               
-        
+        //dostep do parametrow triggerujacych animacje
         AnimatorControllerParameter[] parameters = animator[0].parameters;
    
+        //wypelnienie listy parametrami
         for (int i = 0; i < _animationCount-1; i++)
         {
             boolName.Add(parameters[i].name);
 
         }
+        //inicjalizacja poczatkowego parametru 
         animator[_currentAnimIndex].SetBool(boolName[_currentAnim], true);
 
+        //inicjalizacja licznika
         counter.GetComponent<Text>().text  = (_currentAnim+1).ToString() + " / " + (_animationCount -1).ToString();
         readFromFile();
         textValue.text = textData[_currentAnim];
         
     }
-	// Update is called once per frame
+	// funkcje dzialajace do klatke
 	void Update ()
     {
+        //jezeli wykryto zmiane postaci zmienia aktywny animator
        if(change)
         {
             for(int i=0; i<characterList.Length; i++)
@@ -78,7 +86,7 @@ public class AnimationSwitch : CharacterSelection {
         }
     }
 
-
+    //odtwarzanie aktualnej animacji dla aktywnego animatora
     public void PlayAnim()
     {
 
@@ -95,11 +103,12 @@ public class AnimationSwitch : CharacterSelection {
             }
         }
     }
-
+    //pauzowanie animacji
     public void PauseAnim()
     {
         animator[_currentAnimIndex].enabled = false;
     }
+    //resetowanie animacji
     public void StopAnim()
     {
         if (animator[_currentAnimIndex].enabled == false)
@@ -114,7 +123,7 @@ public class AnimationSwitch : CharacterSelection {
             animator[_currentAnimIndex].ResetTrigger("AnimTrig");
         }
     }
-
+    //przelaczenie animacji na kolejna zmieniajac opis howto oraz licznik
     public void NextAnim()
     {    
         if(_currentAnim < _animationCount - 2)
@@ -149,6 +158,7 @@ public class AnimationSwitch : CharacterSelection {
         }
         
     }
+    //przelaczenie animacji na poprzednia zmieniajac opis howto oraz licznik
     public void PrevAnim()
     {      
         if (_currentAnim > 0)
@@ -182,10 +192,10 @@ public class AnimationSwitch : CharacterSelection {
         }
         
     }
-
+    //wczytanie opisow howto z pliku. Po zbudowaniu aplikacji plik z opisami nalezy umiescic w folderze data
     private List<string> readFromFile()
     {
-        string dataFilePath = "Assets\\Interface\\HowToText.txt";
+        string dataFilePath = Path.Combine(Application.dataPath, "HowToText.txt");
         
         try
         {

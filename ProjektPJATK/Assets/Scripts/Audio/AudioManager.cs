@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-
+    //kod odpowiezdialny za audiomanagera ktory odpala dzwiek na wywolanie funkcji play w roznych miejscach. wartosc audio tracka nalezy ustawic w samym srodowisku unity
     public Sound[] sounds;
 
     public static AudioManager instance;
